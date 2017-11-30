@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platformer", "Platformer\Platformer\Platformer.csproj", "{832481BF-1103-401D-B01D-7B0FF90003F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlatformerContent", "Platformer\PlatformerContent\PlatformerContent.contentproj", "{64B23BEF-DD26-4B81-AAA6-D9F46B0140B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		DebugProfile|x86 = DebugProfile|x86
+		Profile|x86 = Profile|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.Debug|x86.ActiveCfg = Debug|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.Debug|x86.Build.0 = Debug|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.DebugProfile|x86.ActiveCfg = Debug|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.DebugProfile|x86.Build.0 = Debug|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.Profile|x86.ActiveCfg = Release|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.Profile|x86.Build.0 = Release|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.Release|x86.ActiveCfg = Release|x86
+		{832481BF-1103-401D-B01D-7B0FF90003F3}.Release|x86.Build.0 = Release|x86
+		{64B23BEF-DD26-4B81-AAA6-D9F46B0140B4}.Debug|x86.ActiveCfg = Debug|x86
+		{64B23BEF-DD26-4B81-AAA6-D9F46B0140B4}.DebugProfile|x86.ActiveCfg = Debug|x86
+		{64B23BEF-DD26-4B81-AAA6-D9F46B0140B4}.Profile|x86.ActiveCfg = Release|x86
+		{64B23BEF-DD26-4B81-AAA6-D9F46B0140B4}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

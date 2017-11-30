@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" source="prehistoric_tileset.tsx"/>
+ <layer name="Pozadí" width="48" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PsQ3AIAADQQqkjMbU7JYhHOQgXXH9/5pjrIvtJ3d7f/PtdP/pt2b/Fz/t5vSn3Zj+tJvSj3ZL+tFuAAAAAPi7F420h3oAGAAA
+  </data>
+ </layer>
+ <layer name="zem" width="48" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Wx04CURTG8QMJsFRc2LDFXhJB8SUsj6BYSewby6OogEoiFjYqj8LCtrC35/BPMsYJMXBNNDcm50t+ycydM2e+BQtENBqNRqPRaDQajeZ30u8TCSOCAQwiiiGf7WZmmafnAhaxhGWsYNVC/xePyCve8O4xe+eAnhkc4gjHOEHWQv9Gr0gTmtHiNXvnlp53uMcDHvGE53/y+6n2i9SgFnWoRwgNftvNzLMWEFnHBjYDttv8PNrfbrS/3Wh/u/nL/q1oQzs60IkudKMHvYYzfc79d7OndD7DOXKu/qX2mn5zHBOIYRJTmMYMZjFnOBN37kvNus9iZWZNv7mFbewggSRS2MUe9pEu8yzt2vG57xLD/McbwSjGiq6Ln1WgEkFUOdeFs2v23CCPC2fvlXydfwB5Mm7LABgAAA==
+  </data>
+ </layer>
+ <layer name="tráva doplňky" width="48" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UaU4TYQDH4WJVZPEQsm/VAyigsngDlUDZFz2AggKiJ3ALln2RA6iAK4fAa7gv6HefD8Y0sZO0Cpkv7y950maaSf55M51EIhQKhUKhUCgUCoVCocI7QQWVVFFNDbXUUU8DjTSRyro3lYi/bnpI00sf/QwwyBDDjDDKWCwro5vlERnmmGeBRZZYZoVV1ljPujf7exwVcYgkhznCUYo5RgmllFHO8XhmRnaaMzTTQitnOcd52ming04uxLIyumtcZ5wJbnCTSaaY5hYz3ObOAW4p8RCUUkZ5Mr97nvCUZ2yyxTbPecFLXvGaN+zs/+w/tdncTgedee5/x3s+8JFPfOYLX/nGd/b4wc992Bl1zv9y/pX+wFVUU0MtddTTQCNNpDjJqaL/3x91zoWef7cXT9qeXvroZ4BBhhhmhFHGuMLVAvfnOtN8z/8il37/ftlnF2l27X7LLBl75phngUWWWGaFVdZY5zEbBe7Pdaa5rt1N/n39HvfZ82J/4PMhmTyfq9DB9QtacJpuABgAAA==
+  </data>
+ </layer>
+ <layer name="1. patro" width="48" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UyQmEQBSE4ddeXIJxGScZjcA9GUezcjQk6+BJdAakQR/UBz948FA0TYv8NhiR0fz56cFmbF8U7/cdkcC5e8V1Gc4+V3z+PbZ/FO+fsP2reL+Lu+8d3P8QRShGCXqhFL23nqpEFapRs/tuUXffNCIi687eaS32b7amd7oQ/edPRERERER2rJGVfb8AGAAA
+  </data>
+ </layer>
+ <layer name="1. patro doplňky" width="48" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WyQ3CMBBFJ+QAieiBpRUQPbB0xdIFdMIimghl8C8ciZHNOPnSf9KcHI2eZ+xxzIQQgp8z4tK1RAIN4mW8e5gVZvOia4t4jnA/Eftv4b4j9p/AfUrsv4b7hth/D/cDsX+O8/+Z0R78Y/48B+3rnjP6jryPyNxVaVYjxmX7d549rlC7OlC/byzgvUSsAv6eb8wVeW/O5z+lxyGGqP0osv6/ktLjPsD+xrP/Y+W4Y57kuGNCCCH6zxt02oCGABgAAA==
+  </data>
+ </layer>
+</map>
