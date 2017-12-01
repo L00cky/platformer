@@ -47,7 +47,8 @@ namespace Platformer.Entities
             STATE_RUNNING,
             STATE_FALLING,
             STATE_CLIMB,
-            STATE_CLIMB_IDLE
+            STATE_CLIMB_IDLE,
+            STATE_HIT
         };
 
         public State currentState { get; set; }
@@ -236,6 +237,9 @@ namespace Platformer.Entities
                     }
 
                     break;
+                case State.STATE_HIT:
+                    SpriteInstance.CurrentChainName = "Hit";
+                    break;
             }
 
 
@@ -267,6 +271,7 @@ namespace Platformer.Entities
                 var hpToDestroy = HealthList[Health - 1];
                 hpToDestroy.Destroy();
                 this.RecentlyDamaged = true;
+                currentState = State.STATE_HIT;
             }
         }
     }

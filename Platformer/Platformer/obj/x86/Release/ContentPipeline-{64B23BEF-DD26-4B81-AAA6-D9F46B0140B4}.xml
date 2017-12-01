@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{64B23BEF-DD26-4B81-AAA6-D9F46B0140B4}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\FRBProjects\platformer\Platformer\PlatformerContent\</RootDirectory>
+      <LoggerRootDirectory>C:\FRBProjects\platformer\Platformer\Platformer\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\FRBProjects\platformer\Platformer\Platformer\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\FRBProjects\platformer\Platformer\Platformer\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-10-13T12:50:20.5827879+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

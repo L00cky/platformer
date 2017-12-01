@@ -1,0 +1,1 @@
+C:\FRBProjects\platformer\Platformer\PlatformerContent\obj\x86\Release\PlatformerContent.contentprojResolveAssemblyReference.cache

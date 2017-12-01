@@ -20,7 +20,7 @@ namespace Platformer.Screens
 {
     public partial class Level1
     {
-        
+
 
         private float Gravity { get; set; }
 
@@ -110,7 +110,7 @@ namespace Platformer.Screens
             collisionCollection.AddCollisionFrom(PlatformerLevel1, "Tree25");
             collisionCollection.AddCollisionFrom(PlatformerLevel1, "Tree26");
             collisionCollection.AddCollisionFrom(PlatformerLevel1, "Tree27");
-            collisionCollection.AddCollisionFrom(PlatformerLevel1, "Tree28");          
+            collisionCollection.AddCollisionFrom(PlatformerLevel1, "Tree28");
 
             climbableCollection = new TileShapeCollection();
             climbableCollection.Visible = true;
@@ -171,7 +171,7 @@ namespace Platformer.Screens
                     var thisMass = 10;
                     var otherMass = 0;
                     collison.CollideAgainstMove(PlayerInstance.AxisAlignedRectangleInstance, thisMass, otherMass);
-                }                
+                }
             }
             else
             {
@@ -189,15 +189,15 @@ namespace Platformer.Screens
                         PlayerInstance.CanJump = false;
                     }
 
-                    
+
                 }
             }
-            
-            foreach(var climbableCollision in climbableCollection.Rectangles)
+
+            foreach (var climbableCollision in climbableCollection.Rectangles)
             {
                 if (climbableCollection.CollideAgainst(PlayerInstance.AxisAlignedRectangleInstance))
                 {
-                    if(PlayerInstance.YVelocity != 0)
+                    if (PlayerInstance.YVelocity != 0)
                     {
                         PlayerInstance.currentState = Entities.Player.State.STATE_CLIMB;
                     }
@@ -214,7 +214,7 @@ namespace Platformer.Screens
                 }
             }
 
-            foreach(var damageCollision in damagingCollection.Rectangles)
+            foreach (var damageCollision in damagingCollection.Rectangles)
             {
                 if (damageCollision.CollideAgainst(PlayerInstance.AxisAlignedRectangleInstance))
                 {
