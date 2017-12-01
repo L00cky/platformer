@@ -239,6 +239,7 @@ namespace Platformer.Entities
                     break;
                 case State.STATE_HIT:
                     SpriteInstance.CurrentChainName = "Hit";
+                    
                     break;
             }
 
@@ -266,9 +267,10 @@ namespace Platformer.Entities
         public void DoDamage()
         {
             Health--;
+
             if(Health > 0)
             {
-                var hpToDestroy = HealthList[Health - 1];
+                var hpToDestroy = HealthList[HealthList.Count - 1];
                 hpToDestroy.Destroy();
                 this.RecentlyDamaged = true;
                 currentState = State.STATE_HIT;
